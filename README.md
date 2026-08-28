@@ -40,11 +40,33 @@ The following Excel skills were utilized for analysis:
 **🌍 Country Median Salaries - Map Chart**
 
 ![Map Chart](Map_chart.gif)  
+
 -🛠️**Excel Features**: Utilized Excel's map chart feature to plot Median Salaries globally.  
 -🎨**Design Choice**: Color-Coded map to visually differentiate salary levels across regions.  
 -📊**Data Representation**: Plotted Median Salary for each country with available data.  
 -👁️**Visual Enhancement**: Improved readability and immediate understanding of geographic salary trends.  
--💡**Insights Gained**: Enables quick grasp of global salary disparities and highlights high/low salary regions.  
+-💡**Insights Gained**: Enables quick grasp of global salary disparities and highlights high/low salary regions.
+
+## 🧮 Formulas and Functions
+
+**💰 Median Salary by Job Titles**  
+
+```excel
+=MEDIAN(
+    IF(
+        (jobs[job_title_short]=A2)*
+        (jobs[job_country]=country)*
+        (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+        (jobs[salary_year_avg]<>0),
+        jobs[salary_year_avg]
+    )
+)
+```
+-**🔍 Multi-Criteria Filtering**: Checks job title, country, schedule type, and excludes blank salaries.  
+-**📊 Array Formula**: Utilizes MEDIAN() function with nested IF() statement to analyse an array.  
+-**🎯 Tailored Insights**: Provides specific salary information for job titles, regions, and schedule types.  
+-**🔢 Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type.  
+
 
 
   
