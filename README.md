@@ -71,7 +71,11 @@ The following Excel skills were utilized for analysis:
    
  ![Median Salary](background_table.png)
 
- 💹 Dashboard Implementation
+ 💹 Dashboard Implementation  
+
+ !
+
+ 
 
  
 
