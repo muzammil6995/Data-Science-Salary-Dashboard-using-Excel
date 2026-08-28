@@ -1,5 +1,6 @@
 # Data Science Salary Dashboard using Excel
-Interactive Excel dashboard analysing Data Science Job Salaries, Job types, and Job platforms with dynamic filters for Job Title, Country, and Employment type.        
+Interactive Excel dashboard analysing Data Science Job Salaries, Job types, and Job platforms with dynamic filters for Job Title, Country, and Employment type.         
+
 ![Data Science Salary Dashboard Demo](project1_vid_gif.gif)  
 ## Introduction
 
@@ -18,4 +19,15 @@ The following Excel skills were utilized for analysis:
 - 🧮 **Formulas and Functions**
 - ✅ **Data Validation**  
 
-  The data set used for this project contains real world data science job information from 2023
+  The data set used for this project contains real world data science job information from 2023. It includes detailed information on:
+
+-  💼 **Job Titles**
+-  💰 **Salaries**
+-  📍 **Locations**
+-  🛠️ **Skills**
+
+  ## Dashboard Build
+  ## 📈 Charts
+  **📊Data Science Job Salaries - Bar Chart**  
+  ![Bar  Chart](ss1shot.png)
+  
