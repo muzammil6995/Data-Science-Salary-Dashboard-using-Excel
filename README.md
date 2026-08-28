@@ -73,7 +73,18 @@ The following Excel skills were utilized for analysis:
 
  💹 Dashboard Implementation  
 
- !
+ ![Median Salary of Job Titles](Median-salary-jobs.png)  
+ 
+ 🕑** Count of Job Schedule Type**
+```excel
+        =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```  
+🔍**Unique List Generation**: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.  
+🔢 **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.  
+
+🍽️Background Table
+
+ 
 
  
 
