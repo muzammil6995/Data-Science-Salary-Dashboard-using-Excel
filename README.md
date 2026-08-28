@@ -88,9 +88,9 @@ The following Excel skills were utilized for analysis:
 
  📉 Dashboard Implementation:  
 
- 
+ ![Job Type dropdown](Job_type_dropdown.png)  
 
-## ❎ Data Validation  
+ ## ❎ Data Validation  
 🔍**Filtered List**  
  -🔒**Enhanced Data Validation**: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:  
      -🎯 User input is restricted to predefined, validated schedule types  
@@ -100,7 +100,7 @@ The following Excel skills were utilized for analysis:
    ![Selecting Job Titles in Dropdown](Job_Title_Dropdown.gif)
 
  ## Conclusion  
- I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
+ I created this dashboard to showcase insights into salary trends across various data-related job titles. This dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
 
  
 
