@@ -82,7 +82,16 @@ The following Excel skills were utilized for analysis:
 🔍**Unique List Generation**: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.  
 🔢 **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.  
 
-🍽️Background Table
+🍽️Background Table   
+
+![Job Count by Type](job_type_count.png)
+
+## ❎ Data Validation  
+🔍**Filtered List**  
+ -🔒**Enhanced Data Validation**: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:  
+     -🎯 User input is restricted to predefined, validated schedule types  
+     -🚫 Incorrect or inconsistent entries are prevented  
+     -👥 Overall usability of the dashboard is enhanced  
 
  
 
