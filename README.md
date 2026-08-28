@@ -1,4 +1,4 @@
-# Data Science Salary Dashboard using Excel
+# Data Science Jobs Salary Dashboard using Excel
 Interactive Excel dashboard analysing Data Science Job Salaries, Job types, and Job platforms with dynamic filters for Job Title, Country, and Employment type.         
 
 ![Data Science Salary Dashboard Demo](project1_vid_gif.gif)  
@@ -82,9 +82,13 @@ The following Excel skills were utilized for analysis:
 🔍**Unique List Generation**: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.  
 🔢 **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.  
 
-🍽️Background Table   
+🍽️Background Table  
 
-![Job Count by Type](job_type_count.png)
+ ![Job Count by Type](job_type_count.png)  
+
+ 📉 Dashboard Implementation:  
+
+ 
 
 ## ❎ Data Validation  
 🔍**Filtered List**  
@@ -92,6 +96,11 @@ The following Excel skills were utilized for analysis:
      -🎯 User input is restricted to predefined, validated schedule types  
      -🚫 Incorrect or inconsistent entries are prevented  
      -👥 Overall usability of the dashboard is enhanced  
+
+   ![Selecting Job Titles in Dropdown](Job_Title_Dropdown.gif)
+
+ ## Conclusion  
+ I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
 
  
 
